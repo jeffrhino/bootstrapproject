@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .center {
+            font-family: cursive;
+        }
+        
+        .header {
+            height: 20vh;
+            text-align: center;
+        }
+        
+        .navbar-style {
+            box-shadow: 0 5px 10px #efefef;
+        }
+        
+        .logo {
+            height: 150px;
+            padding: 2px 10px;
+        }
+        
+        li a {
+            color: #333;
+        }
+        
+        .big-text {
+            font-size: 52px;
+            margin: 20px 0;
+            color: darkorange;
+        }
+        
+        a.btn {
+            margin: 30px 10px;
+            width: 150px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        a.btn-first {
+            background-color: darkorange;
+            color: #fff;
+        }
+        
+        a.btn-second {
+            background: transparent;
+            border: 1px solid darkorange;
+            color: #333;
+        }
+        
+        .banner-info,
+        .banner-image {
+            margin: 30px 0;
+        }
+        
+        h {
+            padding: 2%;
+            width: 10%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        #id1 {
+            margin-top: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <center>RHINO TEAM</center>
+        </h1>
+        <br>
+        <nav class="navbar navbar-style">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href=""><img class="logo" src="./img/logo.png" id="id1"></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right" id="id1">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">About page</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 banner-info">
+                    <h1>WelcomE To</h1>
+                    <p class="big-text">RhinO TeaM WebsitE</p>
+                    <p>This is our website page</p>
+                    <a class="btn btn-first" href="login.html">Login</a>
+                    <a class="btn btn-second" href="signup.html">Sign-up</a>
+                </div>
+                <div class="col-sm-6 banner-image">
+                    <img src="./img/hi.jpg" class="img-responsive">
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
